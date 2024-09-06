@@ -4,7 +4,7 @@ metadata:
   name: the-deployment
   namespace: test-ns
 spec:
-  replicas: 3
+  replicas: 8
   selector:
     matchLabels:
       deployment: hello
